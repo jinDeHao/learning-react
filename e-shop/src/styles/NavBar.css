@@ -1,0 +1,28 @@
+.NavBar {
+    display: flex;
+    padding-inline: 10%;
+    padding-block: 15px;
+    justify-content: space-between;
+    font-size: 13px;
+
+    background-color: rgb(255, 116, 74);
+}
+
+.NavBar,
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    color: aliceblue;
+    margin-inline: 10px;
+}
+
+ul>:first-child {
+    margin-left: 0px;
+}
+
+ul>:last-child {
+    margin-right: 0px;
+}
