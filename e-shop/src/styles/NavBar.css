@@ -1,0 +1,35 @@
+.NavBar {
+    display: flex;
+    padding-inline: 10%;
+    padding-block: 15px;
+    justify-content: space-between;
+    font-size: 13px;
+
+    background-color: rgb(255, 116, 74);
+}
+
+.NavBar,
+ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.NavBar ul li {
+    display: flex;
+    color: aliceblue;
+    margin-inline: 10px;
+}
+
+.NavBar ul li img {
+    width: 14px;
+    margin-right: 8px;
+}
+
+.NavBar ul>:first-child {
+    margin-left: 0px;
+}
+
+.NavBar ul>:last-child {
+    margin-right: 0px;
+}
