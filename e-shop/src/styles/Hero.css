@@ -1,0 +1,42 @@
+.Hero {
+	display: flex;
+	justify-content: center;
+}
+
+.HeroImg {
+	width: 1090px;
+	height: 450px;
+	border-radius: 20px;
+}
+
+.HeroContent {
+	width: 1090px;
+	height: 450px;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+	color: rgb(19, 19, 19);
+}
+
+.HeroContent h1 {
+    font-weight: bolder;
+    font-size: 40px;
+    padding-right: 106px;
+	padding-bottom: 10px;
+}
+
+.HeroContent p {
+    padding-right: 145px;
+	padding-bottom: 35px;
+}
+
+.HeroContent button {
+    margin-right: 399px;
+    padding: 15px 25px 15px 25px;
+    border-radius: 9px;
+    border: none;
+    background-color: #fe624c;
+    color: wheat;
+}
