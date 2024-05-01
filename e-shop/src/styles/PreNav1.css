@@ -1,0 +1,81 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+#root {
+	--main_bg_color: white;
+	color: var(--main_bg_color);
+}
+
+#PreNav1 {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	color: #4f4f4f;
+	font-family: monospace;
+	border-bottom: solid #4f4f4f 1px;
+}
+
+#PreNav1_ul_1 {
+	display: flex;
+	list-style-type: none;
+	padding-left: 120px;
+}
+
+#PreNav1_li {
+	padding: 15px;
+}
+
+#PreNav1_ul_2 {
+	display: flex;
+	list-style-type: none;
+	padding-right: 120px;
+}
+
+#PreNav1_li {
+	padding: 10px;
+}
+
+#PreNav1_choicesNav {
+	list-style-type: none;
+}
+
+#PreNav1 img {
+	height: 15px;
+	width: 15px;
+	top: 10px;
+	padding-right: 5px;
+}
+
+.selectionNav {
+	border: none;
+	background-color: var(--main_bg_color);
+	color: #4f4f4f;
+	border: 0px;
+	outline: 0px;
+}
+
+.selectionNav:focus {
+	border: none;
+}
+
+.selectionNav option {
+	border: none;
+}
+
+#PreNav1_icons_ul {
+	display: flex;
+	list-style-type: none;
+	padding: 0px;
+}
+
+#PreNav1_icons_ul li {
+	padding-right: 5px;
+}
+
+.horisental_line {
+	position: relative;
+	height: 19px;
+	top: 9px;
+	color: #5d5d5d;
+}
