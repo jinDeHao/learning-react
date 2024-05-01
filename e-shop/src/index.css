@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.822);
+}
+
+:root {
+    --soft-gray: rgba(117, 102, 102, 0.767);
+}
+
+.PreNav2 {
+    padding-inline: 10%;
+    padding-block: 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    /* border: solid 1px var(--soft-gray); */
+}
+
+.PreNav2 h3 {
+    flex-grow: 1;
+    padding-block: 5px;
+}
+
+.PreNav2 h3 span {
+    color: red;
+}
+
+.search-bar {
+    border: solid 1px var(--soft-gray);
+    border-radius: 5px;
+    height: 30px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-bar input {
+    border: none;
+    margin: 5px;
+    padding: 1px;
+    outline: none;
+    color: var(--soft-gray);
+    font-size: 12px;
+}
+
+.search-bar img {
+    width: 13px;
+    margin-block: 9px;
+    margin-inline-end: 5px;
+}
+
+.properties {
+    display: flex;
+}
+
+
+.properties>:first-child {
+    padding-right: 20px;
+    padding-left: 30px;
+    background-image: url('./assets/cart.svg');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: left;
+    border-right: var(--soft-gray) solid 1px;
+}
+
+.properties>:last-child {
+    margin-left: 20px;
+    padding-left: 30px;
+
+    background-image: url('./assets/user.svg');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: left;
+}
+
+.properties .key {
+    color: var(--soft-gray);
+    font-size: 12px;
+}
+
+.properties .val {
+    font-size: 12px;
+    font-weight: bold;
+}
