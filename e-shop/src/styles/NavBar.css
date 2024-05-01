@@ -11,18 +11,25 @@
 .NavBar,
 ul {
     display: flex;
+    gap: 10px;
     list-style: none;
 }
 
 .NavBar ul li {
+    display: flex;
     color: aliceblue;
     margin-inline: 10px;
 }
 
-ul>:first-child {
+.NavBar ul li img {
+    width: 14px;
+    margin-right: 8px;
+}
+
+.NavBar ul>:first-child {
     margin-left: 0px;
 }
 
-ul>:last-child {
+.NavBar ul>:last-child {
     margin-right: 0px;
 }
