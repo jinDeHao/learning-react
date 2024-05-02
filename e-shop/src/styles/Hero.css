@@ -1,18 +1,14 @@
 .Hero {
 	display: flex;
 	justify-content: center;
-}
-
-.HeroImg {
-	width: 80%;
-	height: 70vh;
-	border-radius: 20px;
+	background-image: url('../assets/Hero.png');
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .HeroContent {
 	width: 1090px;
 	height: 450px;
-	position: absolute;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
