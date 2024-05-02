@@ -1,0 +1,21 @@
+.Benefits {
+	display: flex;
+	justify-content: center;
+	color: black;
+}
+
+.Benefits li {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	padding: 40px;
+}
+
+.Benefits p {
+	font-size: 10px;
+}
+
+.Benefits img {
+	width: 20px;
+	height: 20px;
+}
