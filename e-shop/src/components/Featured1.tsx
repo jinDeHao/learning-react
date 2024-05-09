@@ -11,14 +11,15 @@ import cart from '../assets/buttons/add-to-cart.svg'
 import share from '../assets/buttons/share.svg'
 import { useRef } from 'react';
 
+
 const products_images = [product0Image, product1Image, product2Image, product3Image]
 const Featured1 = () => {
-    const scrollRef = useRef(null);
+    const scrollRef = useRef<HTMLElement>(null);
     const handleNav = (direction: string) => {
         if (direction === 'left') {
-            scrollRef ? (scrollRef.current.scrollLeft -= 200) : null;
+            scrollRef.current ? (scrollRef.current.scrollLeft -= 200) : null;
         } else {
-            scrollRef ? (scrollRef.current.scrollLeft += 200) : null;
+            scrollRef.current ? (scrollRef.current.scrollLeft += 200) : null;
         }
     }
     function setStars(num: number) {
