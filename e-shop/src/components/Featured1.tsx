@@ -42,7 +42,6 @@ const Featured1 = () => {
                     <img src={share} alt="" />
                 </div>
             </div>
-
             <div className='product-desc'>Camera
                 <h4>CANON lens {i}</h4>
                 <div>

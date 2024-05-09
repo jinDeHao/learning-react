@@ -16,7 +16,7 @@ import './styles/Featured2.css'
 
 
 const App = () =>
-  <div>
+  <div className="body">
     <PreNav1 />
     <PreNav2 />
     <NavBar />
