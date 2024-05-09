@@ -5,7 +5,6 @@
 }
 
 .Featured1 h3 {
-
     font-weight: bolder;
     font-size: 23px;
 }
@@ -23,25 +22,47 @@
     display: flex;
     max-width: max-content;
     overflow-x: scroll;
+    scroll-behavior: smooth;
     margin-inline: 15px;
     gap: 40px;
     scrollbar-color: transparent transparent;
 }
 
 .Featured1 .Featured-Products article {
-    padding: 10px;
-    padding-block: 30px;
+    padding: 2px;
+    padding-block: 2px;
+    position: relative;
 }
 
 .Featured1 .Featured-Products article:hover {
     border: 2px solid rgba(0, 0, 0, 0.103);
     border-radius: 7px;
-    padding: 8px;
-    padding-block: 28px;
+    padding: 0px;
+    padding-block: 0px;
 }
 
 .Featured1 .Featured-Products .product-image {
     width: 150px;
+}
+
+.Featured1 .Featured-Products .product:hover {
+    .product-options {
+        display: inline;
+    }
+}
+
+.Featured1 .Featured-Products .product:hover {
+    .product-image {
+        opacity: 80%;
+    }
+}
+
+.Featured1 .Button {
+    opacity: 50%;
+}
+
+.Featured1 .Button:hover {
+    opacity: 100%;
 }
 
 .Featured-Container .product-desc {
@@ -56,4 +77,21 @@
 .Featured-Products .product-price {
     font-size: 14px;
     font-weight: bolder;
+}
+
+.Featured1 .Featured-Products article .product-options {
+    display: none;
+    position: absolute;
+    left: 15px;
+    top: 60px;
+}
+
+.product-options img {
+    padding-inline: 5px;
+    width: 30px;
+    opacity: 80%;
+}
+
+.product-options img:hover {
+    opacity: 100%;
 }
