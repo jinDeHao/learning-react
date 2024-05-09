@@ -9,7 +9,7 @@ import product3Image from '../assets/products/product-3.jpg'
 import favorite from '../assets/buttons/add-to-favorite.svg'
 import cart from '../assets/buttons/add-to-cart.svg'
 import share from '../assets/buttons/share.svg'
-import { useRef, useEffect } from 'react';
+import { useRef } from 'react';
 
 const products_images = [product0Image, product1Image, product2Image, product3Image]
 const Featured1 = () => {
