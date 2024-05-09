@@ -1,5 +1,4 @@
 import menu from '../assets/menu.svg'
-import hand from '../assets/hand.svg'
 const NavBar = () =>
     <div className="NavBar">
         <nav>
@@ -12,7 +11,7 @@ const NavBar = () =>
         </nav>
         <nav>
             <ul>
-                <li>LIMITED SALE <img src={hand} alt="" /></li>
+                <li>LIMITED SALE</li>
                 <li>Best Seller</li>
                 <li>New Arrival</li>
             </ul>

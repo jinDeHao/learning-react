@@ -36,3 +36,7 @@
     background-color: #fe624c;
     color: wheat;
 }
+
+.HeroContent button:hover {
+    background-color: #ff8d7e;
+}
