@@ -1,0 +1,12 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: monospace;
+	overflow-x: hidden;
+}
+
+#root {
+	--main_bg_color: white;
+	--soft-gray: rgba(117, 102, 102, 0.767);
+	color: var(--main_bg_color);
+}
