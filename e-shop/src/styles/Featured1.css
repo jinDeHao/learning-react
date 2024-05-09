@@ -1,0 +1,59 @@
+.Featured1 {
+    padding-inline: 10%;
+    padding-block: 15px;
+    color: var(--soft-black);
+}
+
+.Featured1 h3 {
+
+    font-weight: bolder;
+    font-size: 23px;
+}
+
+.Featured1 img {
+    width: 20px;
+}
+
+.Featured1 .Featured-Container {
+    margin-top: 30px;
+    display: flex;
+}
+
+.Featured1 .Featured-Products {
+    display: flex;
+    max-width: max-content;
+    overflow-x: scroll;
+    margin-inline: 15px;
+    gap: 40px;
+    scrollbar-color: transparent transparent;
+}
+
+.Featured1 .Featured-Products article {
+    padding: 10px;
+    padding-block: 30px;
+}
+
+.Featured1 .Featured-Products article:hover {
+    border: 2px solid rgba(0, 0, 0, 0.103);
+    border-radius: 7px;
+    padding: 8px;
+    padding-block: 28px;
+}
+
+.Featured1 .Featured-Products .product-image {
+    width: 150px;
+}
+
+.Featured-Container .product-desc {
+    width: 100%;
+    padding-left: 30px;
+}
+
+.Featured-Products h4 {
+    margin-bottom: 10px;
+}
+
+.Featured-Products .product-price {
+    font-size: 14px;
+    font-weight: bolder;
+}
